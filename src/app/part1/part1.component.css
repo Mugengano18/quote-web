@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.introduction{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url("img/img2.jpg");
+    background-size: cover;
+    height: 650px;
+    text-align: center;
+
+    
+}
+h2,button{
+    position: relative;
+    top: 200px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+h2{
+    font-size: 47px;
+}
+button{
+    border-radius: 200%;
+    font-size: 30px;
+    width: 90px;
+}

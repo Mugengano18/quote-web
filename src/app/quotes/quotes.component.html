@@ -1,0 +1,24 @@
+<div class="container-fluid">
+  <h1>CREATE HERE!!!!</h1>
+  <hr width="100">
+  <!-- <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <textarea placeholder="write your Quote here" rows="5" cols="50"></textarea>
+          </div>
+          <div class="form-group">
+            <input type="name" placeholder="who wrote the quote">
+          </div>
+          <button type="button" class="btn btn-success">Post</button>
+        </form>
+    </div>
+    <div class="col-md-3">
+     
+    </div>
+  </div> -->
+  <ul>
+    <li *ngFor='let quote of quot '>'{{quote.quote}}',<br>Author:{{quote.name}}</li>
+  </ul>
+</div>
