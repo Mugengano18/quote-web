@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="form-group">
-            <label>Posting date:</label>
+            <label>Posting date of the quote:</label>
             <input type="date" class="form-control" id="date" required [(ngModel)]="newQuote.publishDate" name="date"
                 #publishDate='ngModel' placeholder="posting date...">
             <div [hidden]="publishDate.valid||publishDate.pristine" class="alert alert-success">
