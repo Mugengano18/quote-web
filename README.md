@@ -1,27 +1,31 @@
 # QuoteWeb
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.that helps us to add delete any quote inside it,and also get us to create any quote by anybody.
 
-## Development server
+##description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<img src="img/screenshot1.png">
+- this website contains different components and sections the above was the background of the project,and when you enter where you go.
 
-## Code scaffolding
+#BDD
+- we were required to make the user create,add and delete a quote
+- the user should upvote and downvote a  quote
+- the user should see the votes on his/her quote
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+##Pseudocode
+- I firstly styled the first page
+- create another page for tha quotes and where to create
+- Make the upvote and downvote of a user
+- highlight a text
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## technologies used
+- AngularJs
+- Typescript
+- node.js
 
-## Running unit tests
+##Lincese
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+this application is allowed to be used by anyone who accesses the site
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
