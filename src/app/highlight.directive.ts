@@ -9,7 +9,7 @@ export class HighlightDirective {
 
   
   @HostListener("click") onClicks(){
-    this.highlight("indigo")
+    this.highlight("pink")
   }
   public highlight(color:string){
     this.elem.nativeElement.style.backgroundColor=color;
