@@ -8,13 +8,21 @@ import { Quote } from '../quote';
 })
 export class QuotesComponent implements OnInit {
   quot:Quote[]=[
-    {name:'alice',quote:'thank you'},
-    {name:'alice',quote:'never lie'},
-    {name:'alice',quote:'hard work pays'},
-    {name:'alice',quote:'nevr be a fool'},
-    {name:'alice',quote:'try to understand'},
+    {name:'alice',quote:'never give up',author:'keza',publishDate:new Date(2019,4,2)},
+    {name:'alice',quote:'never give up',author:'keza',publishDate:new Date(2019,6,2)},
+  ];
+  deleteQuot(isDelete,index){
+    if(isDelete){
+      this.quot.splice(index,1);
+    }
+  }
+  addNewQuote(quoting){
+    quoting.publishDate= new Date(quoting.publishDate)
+    this.quot.push(quoting);
+  }
 
-  ]
+  
+
   constructor() {
   }
 

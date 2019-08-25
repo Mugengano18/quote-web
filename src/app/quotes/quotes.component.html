@@ -1,24 +1,20 @@
 <div class="container-fluid">
   <h1>CREATE HERE!!!!</h1>
   <hr width="100">
-  <!-- <div class="row">
-    <div class="col-md-3"></div>
+  <div class="row">
     <div class="col-md-6">
-        <form>
-          <div class="form-group">
-            <textarea placeholder="write your Quote here" rows="5" cols="50"></textarea>
-          </div>
-          <div class="form-group">
-            <input type="name" placeholder="who wrote the quote">
-          </div>
-          <button type="button" class="btn btn-success">Post</button>
-        </form>
+      <ul>
+        <li *ngFor='let quote of quot;let i=index'>
+          <p appHighlight>'{{quote.quote}}'</p>
+          <app-quote-details [quote]='quote' (isDelete)='deleteQuot($event,i)'></app-quote-details><br>
+          <app-votes></app-votes>
+
+          
+        </li>
+      </ul>
     </div>
-    <div class="col-md-3">
-     
+    <div class="col-md-6">
+      <app-quote-form (getQuote)="addNewQuote($event)"></app-quote-form>
     </div>
-  </div> -->
-  <ul>
-    <li *ngFor='let quote of quot '>'{{quote.quote}}',<br>Author:{{quote.name}}</li>
-  </ul>
+  </div>
 </div>
