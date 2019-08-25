@@ -6,7 +6,7 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
   styleUrls: ['./part1.component.css']
 })
 export class Part1Component implements OnInit {
-  @Output() isScrolled= new EventEmitter<boolean>();
+  
 
   
   constructor() { }
