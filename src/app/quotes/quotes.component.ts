@@ -24,6 +24,12 @@ export class QuotesComponent implements OnInit {
     this.quot.push(quoting);
   }
 
+  // scrollDown(){
+  //   if(isScrolled){
+  //     this
+  //   }
+  // }
+
   
 
   constructor() {

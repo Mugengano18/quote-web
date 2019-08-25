@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-part1',
@@ -6,7 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./part1.component.css']
 })
 export class Part1Component implements OnInit {
-  
+  @Output() isScrolled= new EventEmitter<boolean>();
+
+  scrollQuote(scroll:boolean){
+    this.isScrolled.emit(scroll);
+  }
   constructor() { }
 
   ngOnInit() {

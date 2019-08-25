@@ -22,8 +22,17 @@ h1{
     font-size:30px;
 }
 #column{
-    background-image: url("img/img5.jpg")
+    background-image: url("img/img5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .card{
     margin-top: 40px;
+}
+app-quote-form{
+    margin-top: 40px;
+}
+h2{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
 }
