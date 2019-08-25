@@ -8,9 +8,7 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 export class Part1Component implements OnInit {
   @Output() isScrolled= new EventEmitter<boolean>();
 
-  scrollQuote(scroll:boolean){
-    this.isScrolled.emit(scroll);
-  }
+  
   constructor() { }
 
   ngOnInit() {
