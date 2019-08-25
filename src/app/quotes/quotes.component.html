@@ -1,20 +1,35 @@
+<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
 <div class="container-fluid">
   <h1>CREATE HERE!!!!</h1>
-  <hr width="100">
+  <hr width="400">
+  <p class="intro">Creating Quote is not a difficult thing to do it is actually fun to make because includes our
+    imaginations and our surroundings,So have fun creating Quotes,and remember use Mostly your imaginations</p>
   <div class="row">
+    <div class="col-md-3" id="column"></div>
     <div class="col-md-6">
       <ul>
         <li *ngFor='let quote of quot;let i=index'>
-          <p appHighlight>'{{quote.quote}}'</p>
+          <p appHighlight class="quote">'{{quote.quote}}'</p>
           <app-quote-details [quote]='quote' (isDelete)='deleteQuot($event,i)'></app-quote-details><br>
           <app-votes></app-votes>
 
-          
+
         </li>
       </ul>
     </div>
-    <div class="col-md-6">
-      <app-quote-form (getQuote)="addNewQuote($event)"></app-quote-form>
-    </div>
+    <div class="col-md-3" id="column"></div>
   </div>
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <div class="card">
+        <app-quote-form (getQuote)="addNewQuote($event)"></app-quote-form>
+      </div>
+
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+
 </div>

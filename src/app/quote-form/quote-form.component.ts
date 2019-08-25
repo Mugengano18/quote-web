@@ -8,7 +8,7 @@ import { Quote } from '../quote';
 })
 export class QuoteFormComponent implements OnInit {
 newQuote:Quote[]=[
-  {name:"",quote:"",author:"",publishDate:new Date()},
+  {name:"",quote:"",author:"",publishDate:new Date},
 ];
 @Output()getQuote=new EventEmitter<Quote[]>();
 

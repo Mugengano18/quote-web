@@ -7,4 +7,23 @@
 
 h1{
     text-align: center;
+    font-family: 'Indie Flower', cursive;
+
+}
+.intro{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.quote{
+    margin-top: 30px;
+    font-family: 'Lora', serif;
+    font-size:30px;
+}
+#column{
+    background-image: url("img/img5.jpg")
+}
+.card{
+    margin-top: 40px;
 }
