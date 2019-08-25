@@ -20,15 +20,9 @@ export class QuotesComponent implements OnInit {
     }
   }
   addNewQuote(quoting){
-    // quoting.publishDate= new Date()
+    quoting.publishDate= new Date(quoting.publishDate)
     this.quot.push(quoting);
   }
-
-  // scrollDown(){
-  //   if(isScrolled){
-  //     this
-  //   }
-  // }
 
   
 

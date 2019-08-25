@@ -7,7 +7,6 @@ import { Part1Component } from './part1/part1.component';
 import { QuotesComponent } from './quotes/quotes.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
-import { DateComponent } from './date/date.component';
 import { VotesComponent } from './votes/votes.component';
 import { HighlightDirective } from './highlight.directive';
 
@@ -18,7 +17,6 @@ import { HighlightDirective } from './highlight.directive';
     QuotesComponent,
     QuoteDetailsComponent,
     QuoteFormComponent,
-    DateComponent,
     VotesComponent,
     HighlightDirective
     
