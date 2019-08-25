@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Description
 
-<img src="/home/alice/Desktop/Angular-apps/quote-web/img/Screenshot from 2019-08-25 17-54-42.png">
+<img src="img/Screenshot from 2019-08-25 17-54-42.png">
 - this website contains different components and sections the above was the background of the project,and when you enter where you go.
 
 ## BDD
