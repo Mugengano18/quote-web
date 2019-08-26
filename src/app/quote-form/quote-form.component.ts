@@ -8,7 +8,7 @@ import { Quote } from '../quote';
 })
 export class QuoteFormComponent implements OnInit {
   newQuote: Quote[] = [
-    { name: "", quote: "", author: "", publishDate: new Date },
+    new Quote ("",  "",  "",  new Date() ),
   ];
   @Output() getQuote = new EventEmitter<Quote[]>();
 
@@ -16,7 +16,7 @@ export class QuoteFormComponent implements OnInit {
     this.getQuote.emit(this.newQuote);
     console.log(this.newQuote);
     this.newQuote = [
-      { name: "", quote: "", author: "", publishDate: new Date() },
+      new Quote ("",  "",  "",  new Date() ),
     ];
   }
 
